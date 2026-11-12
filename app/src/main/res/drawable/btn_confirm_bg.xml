@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:startColor="@color/btn_confirm_start"
+        android:endColor="@color/btn_confirm_end"
+        android:angle="0" />
+    <corners android:radius="32dp" />
+    <padding
+        android:left="32dp"
+        android:top="16dp"
+        android:right="32dp"
+        android:bottom="16dp" />
+</shape>
+

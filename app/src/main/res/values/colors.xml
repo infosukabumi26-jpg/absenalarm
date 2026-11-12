@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#D32F2F</color>
+    <color name="primary_dark">#B71C1C</color>
+    <color name="primary_light">#EF5350</color>
+    <color name="accent">#FF6D00</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="surface">#1A1A2E</color>
+    <color name="surface_card">#16213E</color>
+    <color name="on_surface">#FFFFFF</color>
+    <color name="on_surface_variant">#B0BEC5</color>
+    <color name="background">#0F0F23</color>
+    <color name="alarm_bg_start">#1A0000</color>
+    <color name="alarm_bg_end">#4A0000</color>
+    <color name="btn_confirm_start">#FF6D00</color>
+    <color name="btn_confirm_end">#D32F2F</color>
+    <color name="chip_checked">#D32F2F</color>
+    <color name="chip_unchecked">#37474F</color>
+    <color name="divider">#2C2C54</color>
+    <color name="status_bar">#0D0D1F</color>
+    <color name="green_active">#4CAF50</color>
+    <color name="text_secondary">#90A4AE</color>
+</resources>
+

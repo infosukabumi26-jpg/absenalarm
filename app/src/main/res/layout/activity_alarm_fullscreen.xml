@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_alarm_gradient"
+    android:keepScreenOn="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="32dp">
+
+        <!-- Alarm Icon (animated via code) -->
+        <ImageView
+            android:id="@+id/ivAlarmIcon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_alarm"
+            android:layout_marginBottom="24dp"
+            android:contentDescription="Alarm"
+            android:scaleType="fitCenter" />
+
+        <!-- Title: WAKTUNYA ABSEN MASUK/PULANG! -->
+        <TextView
+            android:id="@+id/tvAlarmTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/waktunya_masuk"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="32dp"
+            android:shadowColor="#FF0000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="20" />
+
+        <!-- Current Time -->
+        <TextView
+            android:id="@+id/tvCurrentTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="07:30"
+            android:textSize="64sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Date -->
+        <TextView
+            android:id="@+id/tvCurrentDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Senin, 12 November 2026"
+            android:textSize="16sp"
+            android:textColor="#CCCCCC"
+            android:gravity="center"
+            android:layout_marginBottom="48dp" />
+
+        <!-- Warning text -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⚠️ Segera lakukan absensi!"
+            android:textSize="16sp"
+            android:textColor="#FFD54F"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Confirm Button (pulsing via code) -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAbsenSekarang"
+            android:layout_width="280dp"
+            android:layout_height="64dp"
+            android:text="✓ ABSEN SEKARANG"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/btn_confirm_bg"
+            android:elevation="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tekan tombol di atas untuk membuka halaman absen"
+            android:textSize="12sp"
+            android:textColor="#888888"
+            android:gravity="center"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+
+</FrameLayout>
+

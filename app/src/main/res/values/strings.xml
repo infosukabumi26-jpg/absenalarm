@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Absen Alarm</string>
+    <string name="alarm_masuk">ABSEN MASUK</string>
+    <string name="alarm_pulang">ABSEN PULANG</string>
+    <string name="waktu_absen_masuk">Waktu Absen Masuk</string>
+    <string name="waktu_absen_pulang">Waktu Absen Pulang</string>
+    <string name="pilih_hari">Pilih Hari</string>
+    <string name="pilih_nada">Pilih Nada Dering</string>
+    <string name="url_absen">URL Halaman Absen</string>
+    <string name="aktifkan">Aktifkan</string>
+    <string name="set_waktu">Set Waktu</string>
+    <string name="absen_sekarang">ABSEN SEKARANG</string>
+    <string name="waktunya_masuk">WAKTUNYA\nABSEN MASUK!</string>
+    <string name="waktunya_pulang">WAKTUNYA\nABSEN PULANG!</string>
+    <string name="alarm_desc">Alarm akan tampil fullscreen dan mengarahkan ke halaman absen STAR-ASN</string>
+    <string name="default_url">https://star-asn.kemenimipas.go.id/authentication/login</string>
+    <string name="nada_default">Nada Default</string>
+    <string name="senin">Sen</string>
+    <string name="selasa">Sel</string>
+    <string name="rabu">Rab</string>
+    <string name="kamis">Kam</string>
+    <string name="jumat">Jum</string>
+    <string name="sabtu">Sab</string>
+    <string name="minggu">Min</string>
+    <string name="izin_diperlukan">Izin Diperlukan</string>
+    <string name="channel_alarm">Alarm Absensi</string>
+    <string name="channel_alarm_desc">Notifikasi alarm absensi masuk dan pulang</string>
+    <string name="alarm_masuk_aktif">Alarm masuk aktif - %1$s</string>
+    <string name="alarm_pulang_aktif">Alarm pulang aktif - %1$s</string>
+    <string name="alarm_disimpan">Pengaturan alarm disimpan</string>
+</resources>
+
